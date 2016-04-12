@@ -67,6 +67,7 @@
   <ItemGroup>
     <Content Include="BetterPage.html" />
     <Content Include="FirstPage.html" />
+    <Content Include="lists.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
