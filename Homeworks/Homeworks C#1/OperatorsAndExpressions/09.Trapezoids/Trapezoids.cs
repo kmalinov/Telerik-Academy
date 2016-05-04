@@ -8,7 +8,7 @@ class Trapezoids
 {
     static void Main()
     {
-        Console.WriteLine("Please Enter A,B and H ");
+        
 
          double aSide = double.Parse(Console.ReadLine());
          double bSide = double.Parse(Console.ReadLine());
@@ -18,6 +18,6 @@ class Trapezoids
         
         double sTrapezoid = ((aSide + bSide)*hSide)/2;
 
-        Console.WriteLine("The Area of this trapezoid is: {0}",sTrapezoid);
+        Console.WriteLine("{0:0.0000000}",sTrapezoid);
     }
 }

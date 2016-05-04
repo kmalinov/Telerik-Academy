@@ -8,21 +8,19 @@ class PointInACircle
     static void Main()
     {
         
-        double radius = 2;
+        double radius = 2.0;
         double x = double.Parse(Console.ReadLine());
         double y = double.Parse(Console.ReadLine());
-        bool isInside = (Math.Pow(x, 2) + Math.Pow(y, 2) <= Math.Pow(radius, 2)); // pithagoras theorem
-        Console.WriteLine(isInside);
-      //  double isInside = Math.Pow(x, 2) + Math.Pow(y, 2);
-      //  isInside <= Math.Pow(radius,2);
-        //if (Math.Pow(x, 2) + Math.Pow(y, 2) <= Math.Pow(radius,2))
-        //{
-        //    Console.WriteLine("Is Inside The Circle");
-        //}
-
-        //else
-        //{
-        //    Console.WriteLine("Is Not Inside");
-        //}
+        bool isInside = (x*x) + (y*y)<= (radius*radius);
+        double distance = Math.Sqrt((x * x) + (y * y));
+        
+        if (isInside==true)
+        {
+            Console.WriteLine("yes {0:0.00}",distance);
+        }
+        else
+        {
+            Console.WriteLine("no {0:0.00}", distance);
+        }
     }
 }

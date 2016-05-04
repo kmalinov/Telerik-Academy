@@ -11,46 +11,68 @@ class PrimeNumberCheck
     static void Main()
     {
 
-        //Console.WriteLine(2);
-        //Console.WriteLine(3);
-        //for (int i = 1; i < 101; i++)
-        //{
-        //    if (i %2== 1 && i%3!=0 && i%5!=0 )
-        //    {
-                
-        //        Console.WriteLine(i);
-                
-                
-        //    }
-            
-            
-        //}
-        Console.Title = "Prime Number Check";
+        int n = int.Parse(Console.ReadLine());
 
-        Console.Write("Enter positive integer number (between 0 and 100): ");
-        int number = int.Parse(Console.ReadLine());
-        bool isTrue = true;
 
-        Console.WriteLine(new string('-', 53));
-        Console.Write("The number is primr! --> ");
-        if (number > 1 && number <= 100)
+        if (n == 1 || n == 2 || n == 3 || n == 5 || n == 7)
         {
-            for (int i = 2; i < 10; i++)
-            {
-                if (number != i)
-                {
-                    if (number % i == 0)
-                    {
-                        isTrue = false;
-                    }
-                }
+            Console.WriteLine("true");
+        }
 
-            }
-            Console.WriteLine(isTrue);
+        else if (n%2 == 0)
+        {
+            Console.WriteLine("false");
+        }
+        else if (n%3 == 0)
+        {
+            Console.WriteLine("false");
+        }
+        else if (n%5==0)
+        {
+            Console.WriteLine("false");
+        }
+        else if (n%7 == 0)
+        {
+            Console.WriteLine("false");
         }
         else
         {
-            Console.WriteLine(isTrue = false);
+            Console.WriteLine("true");
         }
     }
 }
+
+
+
+
+
+
+//        Console.Title = "Prime Number Check";
+
+//        Console.Write("Enter positive integer number (between 0 and 100): ");
+//        int number = int.Parse(Console.ReadLine());
+//        bool isTrue = true;
+
+//        Console.WriteLine(new string('-', 53));
+//        Console.Write("The number is primr! --> ");
+//        if (number > 1 && number <= 100)
+//        {
+//            for (int i = 2; i < 10; i++)
+//            {
+//                if (number != i)
+//                {
+//                    if (number % i == 0)
+//                    {
+//                        isTrue = false;
+//                    }
+//                }
+
+//            }
+//            Console.WriteLine(isTrue);
+//        }
+//        else
+//        {
+//            Console.WriteLine(isTrue = false);
+//        }
+//    }
+//}
