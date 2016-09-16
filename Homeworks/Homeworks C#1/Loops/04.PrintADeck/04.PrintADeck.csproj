@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DC5218D7-B4D1-4134-954B-8332C5DEB2E7}</ProjectGuid>
+    <ProjectGuid>{C803A379-F470-4D93-A3B5-2FF654DEA312}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>_04.PrintADeck</RootNamespace>
