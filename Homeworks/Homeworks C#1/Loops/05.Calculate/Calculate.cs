@@ -7,11 +7,26 @@
 
 
 using System;
-using System.Resources;
+using System.Numerics;
 class Calculate
 {
     static void Main()
     {
+        int N = int.Parse(Console.ReadLine());
+        double X = double.Parse(Console.ReadLine());
         
+
+        ulong aFac = 1;
+        double sum = 1.0;
+        
+
+        for (int i = 1; i <= N; i++)
+        {
+            aFac *= (ulong)i;
+            sum += aFac / Math.Pow(X,i);
+
+            
+        }
+        Console.WriteLine("{0:F5}", sum);
     }
 }

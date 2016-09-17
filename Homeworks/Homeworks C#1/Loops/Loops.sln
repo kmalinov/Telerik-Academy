@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.CatalanNumbers", "08.Cat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.MatrixOfNumbers", "09.MatrixOfNumbers\09.MatrixOfNumbers.csproj", "{B8382002-75C8-483C-A104-CE01A335E5B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.OddAndEvenProduct", "10.OddAndEvenProduct\10.OddAndEvenProduct.csproj", "{EC0BCBAD-6FC2-4FD7-A99E-8ED89085DE64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.BinaryToDecimal", "11.BinaryToDecimal\11.BinaryToDecimal.csproj", "{8F70C5B3-BB17-4A3E-BB51-3D5210420003}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,14 @@ Global
 		{B8382002-75C8-483C-A104-CE01A335E5B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8382002-75C8-483C-A104-CE01A335E5B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8382002-75C8-483C-A104-CE01A335E5B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC0BCBAD-6FC2-4FD7-A99E-8ED89085DE64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC0BCBAD-6FC2-4FD7-A99E-8ED89085DE64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC0BCBAD-6FC2-4FD7-A99E-8ED89085DE64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC0BCBAD-6FC2-4FD7-A99E-8ED89085DE64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F70C5B3-BB17-4A3E-BB51-3D5210420003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F70C5B3-BB17-4A3E-BB51-3D5210420003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F70C5B3-BB17-4A3E-BB51-3D5210420003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F70C5B3-BB17-4A3E-BB51-3D5210420003}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
