@@ -19,7 +19,7 @@ class BinaryToDecimal
             sum = (bit - '0') + sum * 2;
         }
 
-
+            
         Console.WriteLine(sum);
     }
 }
