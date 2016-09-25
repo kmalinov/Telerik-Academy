@@ -16,32 +16,10 @@ class MaximalSequence
 {
     static void Main()
     {
-        //int n = int.Parse(Console.ReadLine());
-        //int sum=0;
-        //int j = 0;
-        //int count = 0;
-        //int[] array = new int[n];
-        //for (int i = 0; i < array.Length; i++)
-        //{
-        //    array[i] = int.Parse(Console.ReadLine());
-
-            
-        //}
-        //for (int i = 0; i < array.Length; i++)
-        //{
-        //    j=i;
-        //    if (j==1)
-        //    {
-        //        sum += j;
-        //        count++;
-               
-        //    }
-
-
-        //}
-
-      //  Console.WriteLine(count);
    
+
+       
+        
         
     }
 }

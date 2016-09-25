@@ -20,9 +20,38 @@ class CompareCharArrays
     static void Main()
     {
 
-        
+        string a = Console.ReadLine();
+        string b = Console.ReadLine();
+        bool areEqual=false;
+        char[] A = a.ToCharArray();
+        char[] B = b.ToCharArray();
 
-  
 
+        for (int i = 0; i < A.Length; i++)
+        {
+            if (A.Length == B.Length && (A[i] == B[i]))
+            {
+
+                areEqual = true;
+            }
+            else if(A.Length == B.Length && (A[i] != B[i]))
+	        {
+                areEqual =false;
+
+            }
+
+        }
+        if (A.Length>B.Length)
+        {
+            Console.WriteLine(">");
+        }
+        else if(A.Length<B.Length)
+        {
+            Console.WriteLine("<");
+        }
+        else if (areEqual==true)
+        {
+            Console.WriteLine("=");
+        }
     }
 }
