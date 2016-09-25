@@ -14,31 +14,6 @@ class CompareArrays
 {
     static void Main()
     {
-        int n = int.Parse(Console.ReadLine());
-        int[] first = new int[n];
-        int[] second = new int[n];
-
-        for (int i = 0; i < n; i++)
-        {
-            first[i] = int.Parse(Console.ReadLine());
-            
-           
-        }
-        for (int i = 0; i < n; i++)
-        {
-            second[i] = int.Parse(Console.ReadLine());
-        }
       
-
-        bool isEqual = Enumerable.SequenceEqual(first, second);
-        if (isEqual == true)
-        {
-            Console.WriteLine("Equal");
-
-        }
-        else
-        {
-            Console.WriteLine("Not equal");
-        }
-         }
+    }
 }
