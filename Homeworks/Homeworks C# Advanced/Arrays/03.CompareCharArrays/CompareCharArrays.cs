@@ -19,7 +19,7 @@ class CompareCharArrays
 {
     static void Main()
     {
-
+        /*
         string a = Console.ReadLine();
         string b = Console.ReadLine();
         bool areEqual=false;
@@ -52,6 +52,29 @@ class CompareCharArrays
         else if (areEqual==true)
         {
             Console.WriteLine("=");
+        }
+        */
+        string arr1 = Console.ReadLine();
+        string arr2 = Console.ReadLine();
+
+
+        char[] firstA = arr1.ToCharArray();
+        char[] secondA = arr2.ToCharArray();
+        if (string.Join("", arr1) == string.Join("", arr2) && firstA.Length == secondA.Length)
+        {
+            Console.Write("=");
+
+        }
+
+
+        else if (string.Join("", arr1) != string.Join("", arr2) && firstA.Length > secondA.Length)
+        {
+            Console.Write(">");
+        }
+
+        else if (string.Join("", arr1) != string.Join("", arr2) && firstA.Length < secondA.Length)
+        {
+            Console.Write("<");
         }
     }
 }
