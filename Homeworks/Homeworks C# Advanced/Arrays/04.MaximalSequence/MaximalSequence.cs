@@ -11,44 +11,46 @@
 
 using System;
 class MaximalSequence
-
-
 {
     static void Main()
     {
 
         int counter = 0;
         int maxConter = 0;
-        
-        int a = int.Parse(Console.ReadLine());
-        
-        int[] arr = new int[a];
-        int b =0;
+
+        int A = int.Parse(Console.ReadLine());
+
+        int[] arr = new int[A];
+        int b = 0;
+        int c = 0;
         for (int i = 0; i < arr.Length; i++)
         {
-            
-            arr[i] = int.Parse(Console.ReadLine());
-           
-            
 
-            if (b==arr[i])
+            arr[i] = int.Parse(Console.ReadLine());
+            c = arr[i];
+            if (arr[i] == b)
             {
                 counter++;
-                maxConter = counter;
-                
+                if (maxConter<=counter)
+                {
+                    maxConter = counter;
+                }
             }
-            b = arr[i];
-           
+            else
+            {
+                counter = 0;
+            }
+            b = c;
         }
 
-        if (arr[0]==0)
+        if (arr[0] == 0)
         {
-            Console.WriteLine(counter);
+            Console.WriteLine(maxConter);
         }
 
         else
         {
-            Console.WriteLine(counter+1);
+            Console.WriteLine(maxConter + 1);
         }
     }
 }
