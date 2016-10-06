@@ -31,7 +31,7 @@ class MaximalSequence
             if (arr[i] == b)
             {
                 counter++;
-                if (maxConter<=counter)
+                if (maxConter <= counter)
                 {
                     maxConter = counter;
                 }

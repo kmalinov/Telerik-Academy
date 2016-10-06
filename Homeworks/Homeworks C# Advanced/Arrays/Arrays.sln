@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.AllocateArray", "01.AllocateArray\01.AllocateArray.csproj", "{FDC4E092-B102-4C49-A0BE-51C801C3EAA6}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.CompareCharArrays", "03.CompareCharArrays\03.CompareCharArrays.csproj", "{0476C2A4-FA4B-41F4-B543-714AAF119F29}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.MaximalSequence", "04.MaximalSequence\04.MaximalSequence.csproj", "{F41B8620-5156-436C-9FA2-218EBDCB1311}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.MaximalIncreasingSequence", "05.MaximalIncreasingSequence\05.MaximalIncreasingSequence.csproj", "{4564A5F4-81F8-43F8-9CF0-F107A92A144A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{F41B8620-5156-436C-9FA2-218EBDCB1311}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F41B8620-5156-436C-9FA2-218EBDCB1311}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F41B8620-5156-436C-9FA2-218EBDCB1311}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4564A5F4-81F8-43F8-9CF0-F107A92A144A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4564A5F4-81F8-43F8-9CF0-F107A92A144A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4564A5F4-81F8-43F8-9CF0-F107A92A144A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4564A5F4-81F8-43F8-9CF0-F107A92A144A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
