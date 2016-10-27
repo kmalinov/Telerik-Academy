@@ -10,17 +10,17 @@ class OddOrEvenIntegers
 {
     static void Main()
     {
-        Console.WriteLine("Please Enter an Integer to Chek - Even or Odd");
+       // Console.WriteLine("Please Enter an Integer to Chek - Even or Odd");
         int integer = int.Parse(Console.ReadLine());
         if (integer % 2 == 0)
         {
-            Console.WriteLine("The Integer is Even");
+            Console.WriteLine("even {0}",integer);
         }
 
 
         else
         {
-            Console.WriteLine("The Integer is Odd");
+            Console.WriteLine("odd {0}", integer);
         }
 
 

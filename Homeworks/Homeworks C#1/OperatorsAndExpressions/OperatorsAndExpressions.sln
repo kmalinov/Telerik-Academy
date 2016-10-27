@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.OddOrEvenIntegers", "01.OddOrEvenIntegers\01.OddOrEvenIntegers.csproj", "{942D2C4E-ED05-414D-8741-A83E5748F83B}"
 EndProject
@@ -22,6 +22,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.Trapezoids", "09.Trapezoids\09.Trapezoids.csproj", "{79C4A668-8649-4328-90AB-6267A2DEC268}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.PointInsideACircleOutsideOfARectangle", "10.PointInsideACircleOutsideOfARectangle\10.PointInsideACircleOutsideOfARectangle.csproj", "{29B90976-879B-42BE-BDED-9DAA82E1BD5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.ThirdBit", "11.ThirdBit\11.ThirdBit.csproj", "{1523F0DB-B72C-4E3A-BA6B-89228778ED8A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{29B90976-879B-42BE-BDED-9DAA82E1BD5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29B90976-879B-42BE-BDED-9DAA82E1BD5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29B90976-879B-42BE-BDED-9DAA82E1BD5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1523F0DB-B72C-4E3A-BA6B-89228778ED8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1523F0DB-B72C-4E3A-BA6B-89228778ED8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1523F0DB-B72C-4E3A-BA6B-89228778ED8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1523F0DB-B72C-4E3A-BA6B-89228778ED8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
