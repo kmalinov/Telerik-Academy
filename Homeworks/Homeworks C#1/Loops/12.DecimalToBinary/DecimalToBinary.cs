@@ -16,6 +16,8 @@ class DecimalToBinary
 {
     static void Main()
     {
-        Console.WriteLine(12);
+        int a = 5;
+        int b = 6;
+        Console.WriteLine(a>b==a);
     }
 }
