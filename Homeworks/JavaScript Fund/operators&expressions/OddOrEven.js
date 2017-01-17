@@ -1,26 +1,12 @@
-function solve(integerA) {
+'use strict';
 
+function oddEven(a) {
 
-    if (integerA % 2 === 0) {
-        console.log('even', parseInt(integerA));
-
+    if (a % 2 === 0) {
+        return 'even ' + a;
     } else {
-        console.log('odd', parseInt(integerA));
-
+        return 'odd ' + a;
     }
 }
 
-
-//function solve(integerA) {
-
-
-//if (integerA % 2 === 0) {
-// console.log('even ' + integerA);
-
-// } else {
-//        console.log('odd ' + integerA);
-
-//   }
-//}
-solve(17);
-solve(20);
+console.log(oddEven(12));
