@@ -24,7 +24,7 @@ class Program
         for (int i = 1; i <= N; i++)
         {
             Console.Write(i + " ");
-            Console.WriteLine("hi");
+            
         }
     }
 }
